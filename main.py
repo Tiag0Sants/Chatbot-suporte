@@ -25,7 +25,7 @@ def sistema_ada():
     print ("-" * 57)
 
     while True:
-        texto_usuario = input("\n Você: ").lower()
+        texto_usuario = input("\n Você: ").strip.lower()
         if "sair" in texto_usuario or "encerrar" in texto_usuario:
             print(f"{nome_bot}: Encerrando sessão. Conte comigo sempre que precisar!")
             break
